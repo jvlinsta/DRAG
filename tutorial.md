@@ -42,7 +42,7 @@ This tutorial demonstrates how to **finetune a Vision-Language Model (VLM) to ge
 
 ## The Core Idea
 
-The method is inspired by [Search-R1](https://arxiv.org/abs/2502.13550), adapted for multimodal document retrieval.
+The method is inspired by [STaR-SQL: Self-Taught Reasoner for Text-to-SQL](https://arxiv.org/abs/2502.13550), adapted for multimodal document retrieval.
 
 ### The Problem
 
@@ -510,7 +510,7 @@ watch -n 1 'nvidia-smi --query-gpu=utilization.gpu,utilization.memory --format=c
 
 ## References
 
-- [Search-R1: Training LLMs to Reason and Leverage Search Engines](https://arxiv.org/abs/2502.13550)
+- [STaR-SQL: Self-Taught Reasoner for Text-to-SQL](https://arxiv.org/abs/2502.13550)
 - [Qwen3-VL Model Card](https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking)
 - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
 - [TRL: Transformer Reinforcement Learning](https://huggingface.co/docs/trl)
@@ -523,5 +523,5 @@ MIT
 
 ---
 
-*Tutorial created as part of the DRAG (Document Retrieval with Agentic Grounding) project.*
+*Tutorial created as part of the Agentic Document AI benchmark project.*
 
