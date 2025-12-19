@@ -223,11 +223,11 @@ DRAG/
 - Python 3.10+
 - CUDA-capable GPU (8×A100 recommended for training)
 - vLLM for model serving
-- Access to document dataset with OCR
+- Access to document dataset with OCR (coming with release of Document AI 
 
 ## References
 
-- [Search-R1: Training LLMs to Reason and Leverage Search Engines](https://arxiv.org/abs/2502.13550)
+- [STaR-SQL: Self-Taught Reasoner for Text-to-SQL](https://arxiv.org/abs/2502.13550)
 - [Qwen3-VL](https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking)
 - [LoRA: Low-Rank Adaptation](https://arxiv.org/abs/2106.09685)
 
